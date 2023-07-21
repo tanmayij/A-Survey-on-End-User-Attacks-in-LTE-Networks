@@ -1,0 +1,323 @@
+%%
+%% This is file `sample-sigplan.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `sigplan')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigplan.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%%
+%% The first command in your LaTeX source must be the \documentclass command.
+\documentclass[sigconf,nonacm]{acmart}
+%% NOTE that a single column version is required for 
+%% submission and peer review. This can be done by changing
+%% the \doucmentclass[...]{acmart} in this template to 
+%% \documentclass[manuscript,screen,review]{acmart}
+%% 
+%% To ensure 100% compatibility, please check the white list of
+%% approved LaTeX packages to be used with the Master Article Template at
+%% https://www.acm.org/publications/taps/whitelist-of-latex-packages 
+%% before creating your document. The white list page provides 
+%% information on how to submit additional LaTeX packages for 
+%% review and adoption.
+%% Fonts used in the template cannot be substituted; margin 
+%% adjustments are not allowed.
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+%\setcopyright{acmcopyright}
+%\copyrightyear{2018}
+%\acmYear{2018}
+%\acmDOI{XXXXXXX.XXXXXXX}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+%\acmConference[Conference acronym 'XX]{Make sure to enter the correct
+%  conference title from your rights confirmation emai}{June 03--05,
+%  2018}{Woodstock, NY}
+%
+%  Uncomment \acmBooktitle if th title of the proceedings is different
+%  from ``Proceedings of ...''!
+%
+%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%  June 03--05, 2018, Woodstock, NY} 
+%\acmPrice{15.00}
+%\acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=Green, urlcolor=Green}
+\hypersetup{colorlinks,citecolor=Green,filecolor=black,linkcolor=Green,urlcolor=Green}
+%%
+%% end of the preamble, start of the body of the document source.
+\setcopyright{none}
+
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{A Survey on End-User Attacks in LTE Networks}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+
+\author{Tanmayi Jandhyala}
+\affiliation{%
+  \institution{Master of Engineering}
+  \institution{Department of Electrical and Computer Engineering} 
+  \institution{University of Waterloo}
+  %\city{Hekla}
+  %\country{Iceland}}
+  }
+   \email{tjandhya@uwaterloo.ca}
+
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+%\renewcommand{\shortauthors}{Trovato and Tobin, et al.}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+%\begin{abstract}
+%  A clear and well-documented \LaTeX\ document is presented as an
+%  article formatted for publication by ACM in a conference proceedings
+%  or journal publication. Based on the ``acmart'' %document class, this
+%  article presents and explains many of the common variations, as well
+%  as many of the formatting elements an author may use in the
+%  preparation of the documentation of their work.
+%\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+\begin{CCSXML}
+<ccs2012>
+ <concept>
+  <concept_id>10010520.10010553.10010562</concept_id>
+  <concept_desc>Computer systems organization~Embedded systems</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010520.10010575.10010755</concept_id>
+  <concept_desc>Computer systems organization~Redundancy</concept_desc>
+  <concept_significance>300</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010520.10010553.10010554</concept_id>
+  <concept_desc>Computer systems organization~Robotics</concept_desc>
+  <concept_significance>100</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10003033.10003083.10003095</concept_id>
+  <concept_desc>Networks~Network reliability</concept_desc>
+  <concept_significance>100</concept_significance>
+ </concept>
+</ccs2012>
+\end{CCSXML}
+
+%\ccsdesc[500]{Computer systems organization~Embedded systems}
+%\ccsdesc[300]{Computer systems organization~Redundancy}
+%\ccsdesc{Computer systems organization~Robotics}
+%\ccsdesc[100]{Networks~Network reliability}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+%\keywords{datasets, neural networks, gaze detection, text tagging}
+
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+%\begin{teaserfigure}
+%  \includegraphics[width=\textwidth]{sampleteaser}
+%  \caption{Seattle Mariners at Spring Training, 2010.}
+%  \Description{Enjoying the baseball game from the third-base
+%  seats. Ichiro Suzuki preparing to bat.}
+%  \label{fig:teaser}
+%\end{teaserfigure}
+
+%\received{20 February 2007}
+%\received[revised]{12 March 2009}
+%\received[accepted]{5 June 2009}
+\settopmatter{printacmref=false}
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+
+
+
+\begin{abstract}
+
+As the entire world is dependent on mobile networks for services that require high bandwidth and fast processing, the long-term evolution (LTE)/LTE-Advanced (LTE-A) have proven to adhere to their users’ needs all while providing low latency. However, its end-to-end all IP-based network architecture makes it susceptible to network vulnerabilities and attacks that need to be addressed. This survey paper aims to focus on the data collection and types of attacks that have been observed in LTE networks, and security mechanisms that were previously proposed to thwart these attacks. DDoS attacks and Location-based tracking are two types of attacks that are directly influential on user information and service availability, and throwing light on these would help bring more perspective into the aspects of these systems that need to be safeguarded from privacy attacks.
+
+
+\end{abstract}
+\maketitle
+\pagestyle{plain}
+
+\section{Introduction}
+
+Collection of data proves fundamental in understanding the network vulnerabilities that an architecture can have \cite{ek}. Several security framework and authentication methods have also been proposed to the LTE System Architecture Evolution that make it easier for LTE networks to prevent Distributed Denial-of-Service attacks (DDoS). Another fundamental security issue in mobile networks would be location-based tracking attacks that affect users directly. Diameter-based attacks \cite{teen} have been detected and improved security mechanisms against them have been proposed as an upgrade to systems utilising SS7 protocols while communicating with devices in an LTE network.
+
+\section{Background}
+In previous work, LTE security vulnerabilities were broadly categorized in multiple parts of the architecture, like the handover procedures, IP Multimedia Subsystem (IMS) security, Home eNodeB (HeNB) security and Machine Type Communication security. Security issues were classified as being in layers. Seddigh et al. \cite{chaar} summarized security threats in dif- ferent layers. Networks can suffer attacks in the physical layer through scrambling and interference attacks. Such attacks include jamming on wireless VoLTE networks and cause interference for the data transfer as a consequence of having errors in contiguous bits or bust errors. In the Medium Access Control layer, attacks such as location tracking and bandwidth stealing happens as a result of denial of service attacks. In the upper layers, issues in ciphering algorithms as part of encryption and authentication techniques bring out the vulnerabilities in LTE/LTE-A security algorithms and procedures.
+
+\cite{ek} et al classifies security in the network systems in two categories of Access security, which relates to having services for users and protecting the radio access link from attacks, and in domain security which safeguards signaling and user data, including mutual authentication between the Universal Subscriber Identity Module (USIM) and the UE. The review done in this paper aims to classify attacks on networks broadly in terms of Denial of Service and location-tracking of users in the LTE/LTE-A infrastructures. 
+
+\section{Adversary Models}
+The adversaries are attackers which have full knowledge of the LTE specification, that:
+
+\begin{enumerate}[A.]
+    \item Are in the same geographic location as that of the subscriber, but do not have direct contact with the UE, EPC, and other parties in the LTE network.
+    \item Are in a different geographic location, and aims to obtain the same. The attacker would be able to gather Global Title information from the HLR by making brute-force requests to the GT range which the operator holds.
+
+\end{enumerate}
+
+Passive and active adversaries are involved in the attacks, both of which are able to sniff over the LTE air interface. The difference is that a UE and a network do not know of the existence of a passive adversary, while an active adversary is one that sets up a rogue base station or change the IMSI number of the UE, and has the required parameters of a working base station or LTE subscriber \cite{do}. The adversaries are also able to adjust frequency bands, the Public Land Mobile Network (PLMN) identity, cell identity, and so on. The messages that are spoofed by these adversaries in the papers that are surveyed are limited to having information essential to indicate channel information used for transmission only. 
+
+\section{Attack types}
+
+This review paper aims to classify the types of attacks in LTE and their causes in two classes: Denial of Services and Location-based tracking attacks. It also aims to survey the improvements in security mechanisms that have been proposed for these attack types as a means to prevent these vulnerabilities from being exploited.
+
+\subsection{Denial of Service(DoS) and Distributed Denial of Service Attacks (DDoS)}
+Denial of service attacks are persistent and silent way of attacking a target UE. Typically, it would involve having the user being forced into using 2G or 3G networks instead of 4G networks, which enables an attacker to exploit the vulnerabilities of 2G/3G networks. Other ways to carry out DoS attacks would be for an attacker to deny service to allow networks, and also to limit the UE to allow only some services and block the others. Users would require explicit action to recover from these types of attacks, such as rebooting or re-inserting the USIM. 
+
+A successful DoS attack in adversary model A would involve acting against UEs in a certain area, denying the target area of the attacked network. The impact of the attack is such that even when the attacker moves away from the attacking area, the UE still remains in non-service state until the UE actively recovers from the attack. DoS attacks would also mean that users would not receive legitimate services, resulting in significant network loss to both network operators and end users. Further, users (subscribers) are not billed for the period of denial of service for the LTE service.
+
+Further, Distributed Denial of Service attacks (DDoS attacks) can be insider attacks, where the adversary is present in the network itself and not requiring a charge of malicious traffic. From a user-security point of view, availability of the network is disrupted with certain types of DDoS attacks where they can exploit single points of failure in LTE EPC. \cite{paanch} et al provides in their paper that a single simple event on the mobile device end requires communicating with a number of messages exchanged among several EPC nodes, which can be potential vulnerabilities to be exploited for DDoS attacks. For example, a certain type of application that has to communicate directly with a server oftentimes would have a heavy load of connect/disconnect messages, which in turn result in high load on the EPC. 
+
+\begin{figure}
+    \centering
+    \frame{\includegraphics[width=.4\textwidth]{ddos.png}}
+    %\includegraphics{ddos.png}
+    \caption{DoS and DDoS attacks in mobility networks \cite{paanch}}
+    \label{fig:my_label}
+\end{figure}
+
+James et al \cite{do} also presents that mobile bots like malware and spy wares have high potential for being vulnerable to DDoS attacks. Attacks like text message spams, attacks raised by exploiting quad core processor power of Android Smartphones. A botnet that is present in a victim’s LTE-enabled mobile phone device  can launch an attack on mobile core network to flood the EPC core with attach and detach messages to the EPC core gateways, by performing this action in a loop. Smartphones with huge processing capabilities, in combination with LTE networks pose a serious threat to mobile core networks, which can flood attack vectors similar to that of a PC. Counter measures to prevent such attacks have to be researched. 
+
+\subsection{Location Disclosure Attacks} Location-based tracking is essential for UEs to handle features that involve call handovers to provide adequate mobile-IP services User tracking is hence fundamental to the concept, to enable the service, and this can be worked out with the help of Mobile Network Operators (MNOs). When providing with roaming services, these MNOs are required to connect with other MNOs, in a kind of service called interconnection. Adversaries in threat model B are able to track user information by exploiting interconnections and information pertaining to individual subscribers are at a potential for leaks. 
+
+Silke et al \cite{teen} mentions a network system where adversaries can perform location tracking through call setups and SMS protocol messages. In call setup, location determination is performed by the attacker pretending to be a Global MSC (GMSC) with an SS7 access. The Global Title (GT) in the protocol is a unique identifier of a node that has address information for the network to use. The attacker chooses to target the Home Location Register (HLR), which contains crucial subscriber information that can point to individual information of a user utilising subscription services in the network. The attacker would place themselves at a point where the GMSC receives an Initial Address Message (IAM). This is done by the attacker when they are able to place the subscriber’s phone number (MSISDN) in a MAP Send Routing Infromation (SRI) message to the HLR in the subscriber’s home network, in accordance with threat model B. The HLR would be able to map to the IMSI and the attacker can query information to the VLR for call setup. The ACK from the VLR would contain essential IMSI information which has the subscriber’s identity in the GT, which the attacker would then be able to obtain, along with their location. Attacks using SMS protocols are done in a similar fashion, where the attacker pretends to have an SMS waiting for the victim, and queries for the MSC/VLR location information in order to deliver it.
+
+\begin{figure}
+    \centering
+    \frame{\includegraphics[width=.4\textwidth]{location.png}}
+    %\includegraphics{ddos.png}
+    \caption{An attacker obtaining IMSI information containing subscriber location data \cite{teen}}
+    \label{fig:my_label}
+\end{figure}
+Altaf et al \cite{che} presents in their work that networks providing land phone services are susceptible to the above location-based attacks, there have evolved some attacks that are central to social media applications which can be used to trigger LTE paging requests. The subscriber would be an active user of the below social networking applications. They present that, for example in Facebook, an attacker interfering with the ‘other messages’ folder of an LTE subscriber can trigger paging requests. The attacker exploits the fact that these messages are not notified to the user (because such is the nature of messages in the ‘other’ inbox, and the paging can be intercepted for obtaining sensitive subscriber information containing location data. Similarly, a whatsapp typing request would also initiate a paging request and if the victim is using an LTE device, the attacker can exploit this as well. 
+
+\section{Conclusion and Future Work}
+
+Pertaining to the impact of these attacks on mobile network elements, the modifications needed would be in issues relating to interoperability and backward compatibility. Unauthorised network entities sending messages should be blocked by UEs. The ability of the UE to be able to detect messages from a legitimate source could be implemented by having received TAU reject messages, and have the subscriber UEs respond to authentic messages only. As for all security, encryption in the network works. Public Key Encryption techniques could be used between the subscriber UEs and the network entities handling messages and data between them. This could lead to an increase in signaling overhead, but would help in seeking appropriate security against obtaining sensitive user information. 
+If a user is being downgraded of their network, from 4G LTE to 2G or 3G, they can be warned of this by the use of pop-up notifications or better, have an authentication system where they can accept this redirection, while getting notified about the possible security implication that this could have.
+
+With increasing growth in mobile data traffic, the fifth generation mobile networks- 5G, which can strategise for its architecture to have content storage and data processing that is closer to the mobile users. This could be implemented by having 5G architecture include edge-cloud deployments.  
+
+
+%
+
+%%
+%% The acknowledgments section is defined using the "acks" environment
+%% (and NOT an unnumbered section). This ensures the proper
+%% identification of the section in the article metadata, and the
+%% consistent spelling of the heading.
+%\begin{acks}
+%To Robert, for the bagels and explaining CMYK and color spaces.
+%\end{acks}
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-base}
+
+
+%%
+%% If your work has an appendix, this is the place to put it.
+\appendix
+
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigplan.tex'.
